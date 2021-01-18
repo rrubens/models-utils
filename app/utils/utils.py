@@ -4,8 +4,14 @@ def sum(a, b):
 def HW():
     return "Hello World"
 
-def greaterThan(a):
-    if a > 10:
+def greaterThan(number):
+    if number > 10:
+        return True
+    else:
+        return False
+
+def smallerThan(number):
+    if number < 10:
         return True
     else:
         return False
