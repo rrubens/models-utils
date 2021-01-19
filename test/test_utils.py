@@ -17,4 +17,4 @@ class Test(TestCase):
         assert smallerThan(7) is True
 
     def test_is_true(self):
-        assert isTrue() is False
+        assert isTrue() is True
