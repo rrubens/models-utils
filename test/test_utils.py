@@ -15,3 +15,6 @@ class Test(TestCase):
     def test_smaller_than(self):
         assert smallerThan(50) is False
         assert smallerThan(7) is True
+
+    def test_is_true(self):
+        assert isTrue() is False
