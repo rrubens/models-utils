@@ -17,4 +17,4 @@ def smallerThan(number):
         return False
 
 def isTrue():
-        return True
+    return True
