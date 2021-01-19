@@ -15,3 +15,6 @@ def smallerThan(number):
         return True
     else:
         return False
+
+def isTrue():
+        return True
