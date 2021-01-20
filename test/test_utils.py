@@ -7,6 +7,8 @@ class Test(TestCase):
 
     def test_hw(self):
         assert HW() == "Hello World"
+        assert HW() != "HW"
+
 
     def test_greater_than(self):
         assert greaterThan(50) is True
